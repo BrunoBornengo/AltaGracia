@@ -1,0 +1,28 @@
+.footer {
+    background-color: #e7bcbcbc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+.logo-footer{
+    height: 60px;
+}
+    
+.footer iframe {
+    border-radius: 10px;
+}
+    
+.footer a {
+    margin: 0 -60px;
+}
+    
+.footer a img{
+    height: 40px;
+    transition: .2s;
+}
+
+.footer a img:hover{
+    height: 45px;
+}

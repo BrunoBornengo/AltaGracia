@@ -1,0 +1,21 @@
+.cards-deporte{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+    .card{
+        height: 380px;
+        text-align: center;
+
+        .card-img-top {
+            height: 200px;
+        }
+
+        .card-body .card-text{
+            font-weight: bold;
+        }
+    }
+}

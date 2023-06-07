@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: #e0f7fa;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+//imports base
+@import 'base/vars';
+@import 'base/reset';
+
+//imports components
+@import 'components/navbar';
+@import 'components/footer';
+
+//imports layout
+@import 'layout/index';
+@import 'layout/contacto';
+@import 'layout/deporte';
+@import 'layout/galeria';
+@import 'layout/lugares-turisticos';
+@import 'layout/medias';

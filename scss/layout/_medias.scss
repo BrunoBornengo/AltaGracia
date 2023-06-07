@@ -1,0 +1,75 @@
+@media (max-width: 576px){
+     
+    /*INICIO*/
+    .logo{
+        width: 100px;
+    } 
+
+    .hero_content{
+        flex-direction: column;
+    }
+
+    .hero img{
+        width: 80%;
+    }
+
+    .hero_content div a{
+        display: flex;
+        justify-content: center;
+        margin-left: 200px;
+        width: 30%;
+    }
+
+    .tarjeta{
+        flex-direction: column;
+    }
+
+    .tarjeta div{
+        margin-top: 80px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+    
+    .footer a, .logo-footer, .footer iframe{
+        margin: 15px;
+    }
+
+    /*GALERIA*/
+    .grilla{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto, 500px);
+        grid-template-areas:
+            'area1 area1'
+            'area2 area3' 
+            'area4 area5'
+            'area6 area7' 
+            'area8 area9' 
+            'area10 area11'
+            'area12 area12'
+        ;
+    }
+
+    /*LUGARES TURISTICOS*/
+    .card-grid {
+        grid-template-columns: repeat(3, 2fr);
+        grid-template-rows: repeat(auto, 500px);
+        grid-template-areas: 
+        'titulo titulo titulo'
+        'descrip descrip descrip'
+        'img img img'   
+        ;
+    }
+
+    /*CONTACTO*/
+    .div_contact{
+        flex-direction: column;
+    }
+
+    .contact img{
+        width: 80%;
+    }
+
+
+}

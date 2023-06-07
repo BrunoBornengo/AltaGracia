@@ -1,496 +1,386 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+body {
+  background-color: #e0f7fa;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-body {
-    background-color: #e0f7fa;
+.logo {
+  width: 10%;
 }
 
-h2{
-    text-align: center;
-    font-size: 40px;
+header {
+  background-color: rgba(231, 188, 188, 0.737254902);
 }
 
-/* header */
-
-.logo{
-    width: 10%;
-} 
-
-header{
-    background-color: #e7bcbcbc;
-}    
-
-.nav-link{
-    color: #4e4e4e;
-    font-size: 20px;
-    transition: .2s;
-    font-weight: bold;
+.nav-link {
+  color: #4e4e4e;
+  font-size: 20px;
+  transition: 0.2s;
+  font-weight: bold;
 }
 
-.nav-link:hover{
-    color: #000000;
+.nav-link:hover {
+  color: #000000;
 }
 
-.nav-item{
-    margin: 0 10px;
+.nav-item {
+  margin: 0 10px;
 }
-    
+
 .nav-link-contacto {
-    background-color: #222222;
-    color: #e7bcbcbc;
-    border-radius: 10px;
-    font-size: 20px;
-    padding: 8px;
-    font-weight: bold;
-    border: 2px solid #222222;
-    text-decoration: none;
-    transition: .2s;  
+  background-color: #222222;
+  color: rgba(231, 188, 188, 0.737254902);
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 8px;
+  font-weight: bold;
+  border: 2px solid #222222;
+  text-decoration: none;
+  transition: 0.2s;
 }
 
 .nav-link-contacto:hover {
-    background-color: transparent;
-    color: #222222;
-    border: 2px solid #222222;
+  background-color: transparent;
+  color: #222222;
+  border: 2px solid #222222;
 }
-
-/* main */
-
-.hero {
-    width: 100%;
-}
-
-.hero_content{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.hero img{
-    width: 49%;
-    padding: 50px;
-}
-
-.hero_content div h1{
-    font-size: 45px;
-    font-weight: bold;
-    color: #222222;
-    padding: 30px 0;
-    text-align: center;
-}
-
-.hero_content div p{
-    font-size: 22px;
-    color: #222222;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-.hero_content div a{
-    border: 2px solid #222222;
-    color: #222222;
-    border-radius: 10px;
-    padding: 8px;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;  
-    transition: .3s;
-}
-
-.hero_content div a:hover{
-    border: 2px solid #222222;
-    color: #222222;
-    background-color: #e7bcbcbc;
-}
-
-
-.img-fondo{
-    background-image: url(../img/ARCHI_618050.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px;
-    text-align: center;
-    color: #eee;
-}
-
-.tarjetas{
-    background-color: #ecfafc;
-    margin-top: 60px;
-}
-
-.tarjeta{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
-    padding-bottom: 100px;
-}
-
-.tarjeta div{
-    width: 400px;
-    height: 350px;
-}
-
-
-.tarjeta img{
-    width: 400px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.tarjeta h2{
-    padding: 10px;
-    font-weight: bold;
-
-}
-
-.tarjeta a{
-    color: #222222;
-    padding: 10px;
-    font-size: 15px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    transition: .3s;
-}
-
-.tarjeta a:hover{
-    font-size: 20px;
-    border: 2px solid #222222;
-    border-radius: 10px;
-}
-
-.tarjeta img{
-    width: 400px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.lugares-destacados{
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.video{
-    display: flex;
-    justify-content: center;
-    margin: 10px 0;
-}
-
-/* footer */
 
 .footer {
-    background-color: #e7bcbcbc;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    }
-    
-    .logo-footer{
-    height: 60px;
-    }
-    
-    .footer iframe {
-    border-radius: 10px;
-    }
-    
-    .footer a {
-    margin: 0 -60px;
-    }
-    
-    .footer a img{
-        height: 40px;
-        transition: .2s;
-    }
-
-    .footer a img:hover{
-        height: 45px;
-    }
-
-
-/* galeria */
-
-main{
-    padding: 15px;
+  background-color: rgba(231, 188, 188, 0.737254902);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.grilla{
-    display: grid;
-    gap: 15px;
-    grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(auto, 500px);
-    grid-template-areas:
-        'area1 area2 area3'
-        'area4 area5 area6'
-        'area7 area8 area9'
-        'area10 area11 area12'
-    ;
+.logo-footer {
+  height: 60px;
 }
 
-.caja {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(51, 132, 132);
-    /* display: flex;
-    justify-content: start;
-    align-items: start; */
-    border-radius: 20px;
-    box-shadow: 5px 5px 7px 0px #848484ee;
+.footer iframe {
+  border-radius: 10px;
 }
 
-.caja img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-    border: 2px solid #A5C0DD;
+.footer a {
+  margin: 0 -60px;
 }
 
-/* .caja .description {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    font-size: 14px;
-    position: absolute;
-    width: 100%;
-    } */
-
-
-.c1 {
-    grid-area: area1;
+.footer a img {
+  height: 40px;
+  transition: 0.2s;
 }
 
-.c2 {
-    grid-area: area2;
+.footer a img:hover {
+  height: 45px;
 }
 
-.c3 {
-    grid-area: area3;
+.hero {
+  width: 100%;
+}
+.hero .hero_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero .hero_content img {
+  width: 49%;
+  padding: 50px;
+}
+.hero .hero_content div h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #222222;
+  padding: 30px 0;
+  text-align: center;
+}
+.hero .hero_content div p {
+  font-size: 22px;
+  color: #222222;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.hero .hero_content div a {
+  border: 2px solid #222222;
+  color: #222222;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.hero .hero_content div a:hover {
+  border: 2px solid #222222;
+  color: #222222;
+  background-color: rgba(231, 188, 188, 0.737254902);
 }
 
-.c4 {
-    grid-area: area4;
+.img-fondo {
+  background-image: url(../img/ARCHI_618050.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px;
+  text-align: center;
+  color: #eee;
+}
+.img-fondo .lugares-destacados {
+  font-size: 40px;
+  font-weight: bold;
 }
 
-.c5 {
-    grid-area: area5;
+.tarjetas {
+  background-color: #ecfafc;
+  margin-top: 60px;
+}
+.tarjetas .tarjeta {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 100px;
+}
+.tarjetas .tarjeta div {
+  width: 400px;
+  height: 350px;
+}
+.tarjetas .tarjeta img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.tarjetas .tarjeta h2 {
+  padding: 10px;
+  font-weight: bold;
+}
+.tarjetas .tarjeta a {
+  color: #222222;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.tarjetas .tarjeta a:hover {
+  font-size: 20px;
+  border: 2px solid #222222;
+  border-radius: 10px;
 }
 
-.c6 {
-    grid-area: area6;
+.video {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
 }
 
-.c7 {
-    grid-area: area7;
-}
-
-.c8 {
-    grid-area: area8;
-}
-
-.c9 {
-    grid-area: area9;
-}
-
-.c10 {
-    grid-area: area10;
-}
-
-.c11 {
-    grid-area: area11;
-}
-
-.c12 {
-    grid-area: area12;
-}
-
-
-/* lugares turisticos */
-.card-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(auto, 500px);
-    grid-template-areas: 
-    'img titulo titulo'
-    'img descrip descrip'
-    'img descrip descrip'   
-    ;
-    justify-items: center;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #222222;
-    border-radius: 10px;
-}
-
-.card-grid img{
-    grid-area: img;
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.card-grid h2{
-    grid-area: titulo;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.card-grid p{
-    grid-area: descrip;
-    font-size: 16px;
-    color: #222222;
-    margin: 20px 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    margin: 10px;
-}
-
-/* Deporte */
-.cards-deporte{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-.card{
-    height: 380px;
-    text-align: center;
-}
-
-.card-img, .card-img-top {
-    height: 200px;
-}
-
-.card-body p{
-    font-weight: bold;
-}
-
-
-/* Formulario */
 .contact {
-    width: 100%;
+  width: 100%;
+}
+.contact .div_contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact .div_contact div h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #222222;
+  padding: 30px 0;
+  text-align: center;
+}
+.contact .div_contact div p {
+  font-size: 22px;
+  color: #222222;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.contact .div_contact img {
+  width: 49%;
+  padding: 50px;
 }
 
-.div_contact{
+.mb-3 {
+  font-weight: bold;
+}
+
+.cards-deporte {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.cards-deporte .card {
+  height: 380px;
+  text-align: center;
+}
+.cards-deporte .card .card-img-top {
+  height: 200px;
+}
+.cards-deporte .card .card-body .card-text {
+  font-weight: bold;
+}
+
+main {
+  padding: 15px;
+}
+main .grilla {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(auto, 500px);
+  grid-template-areas: "area1 area2 area3" "area4 area5 area6" "area7 area8 area9" "area10 area11 area12";
+}
+main .grilla .caja {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(51, 132, 132);
+  border-radius: 20px;
+  box-shadow: 5px 5px 7px 0px rgba(132, 132, 132, 0.9333333333);
+}
+main .grilla .caja.c1 {
+  grid-area: area1;
+}
+main .grilla .caja.c2 {
+  grid-area: area2;
+}
+main .grilla .caja.c3 {
+  grid-area: area3;
+}
+main .grilla .caja.c4 {
+  grid-area: area4;
+}
+main .grilla .caja.c5 {
+  grid-area: area5;
+}
+main .grilla .caja.c6 {
+  grid-area: area6;
+}
+main .grilla .caja.c7 {
+  grid-area: area7;
+}
+main .grilla .caja.c8 {
+  grid-area: area8;
+}
+main .grilla .caja.c9 {
+  grid-area: area9;
+}
+main .grilla .caja.c10 {
+  grid-area: area10;
+}
+main .grilla .caja.c11 {
+  grid-area: area11;
+}
+main .grilla .caja.c12 {
+  grid-area: area12;
+}
+main .grilla img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid #A5C0DD;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(auto, 500px);
+  grid-template-areas: "img titulo titulo" "img descrip descrip" "img descrip descrip";
+  justify-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #222222;
+  border-radius: 10px;
+}
+.card-grid h2 {
+  grid-area: titulo;
+  font-size: 40px;
+  font-weight: bold;
+}
+.card-grid p {
+  grid-area: descrip;
+  font-size: 16px;
+  color: #222222;
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+.card-grid img {
+  grid-area: img;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  /*INICIO*/
+  .logo {
+    width: 100px;
+  }
+  .hero_content {
+    flex-direction: column;
+  }
+  .hero img {
+    width: 80%;
+  }
+  .hero_content div a {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    width: 30%;
+  }
+  .tarjeta {
+    flex-direction: column;
+  }
+  .tarjeta div {
+    margin-top: 80px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer a, .logo-footer, .footer iframe {
+    margin: 15px;
+  }
+  /*GALERIA*/
+  .grilla {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto, 500px);
+    grid-template-areas: "area1 area1" "area2 area3" "area4 area5" "area6 area7" "area8 area9" "area10 area11" "area12 area12";
+  }
+  /*LUGARES TURISTICOS*/
+  .card-grid {
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(auto, 500px);
+    grid-template-areas: "titulo titulo titulo" "descrip descrip descrip" "img img img";
+  }
+  /*CONTACTO*/
+  .div_contact {
+    flex-direction: column;
+  }
+  .contact img {
+    width: 80%;
+  }
 }
 
-.contact img{
-    width: 49%;
-    padding: 50px;
-}
-
-.div_contact div h2{
-    font-size: 45px;
-    font-weight: bold;
-    color: #222222;
-    padding: 30px 0;
-    text-align: center;
-}
-
-.div_contact div p{
-    font-size: 22px;
-    color: #222222;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-
-.mb-3{
-    font-weight: bold;
-}
-
-/* MEDIAS */
-@media (max-width: 576px){
-     
-    /*INICIO*/
-    .logo{
-        width: 100px;
-    } 
-
-    .hero_content{
-        flex-direction: column;
-    }
-
-    .hero img{
-        width: 80%;
-    }
-
-    .hero_content div a{
-        display: flex;
-        justify-content: center;
-        margin-left: 200px;
-        width: 30%;
-    }
-
-    .tarjeta{
-        flex-direction: column;
-    }
-
-    .tarjeta div{
-        margin-top: 80px;
-    }
-
-    .footer {
-        flex-direction: column;
-    }
-    
-    .footer a, .logo-footer, .footer iframe{
-        margin: 15px;
-    }
-
-    /*GALERIA*/
-    .grilla{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(auto, 500px);
-        grid-template-areas:
-            'area1 area1'
-            'area2 area3' 
-            'area4 area5'
-            'area6 area7' 
-            'area8 area9' 
-            'area10 area11'
-            'area12 area12'
-        ;
-    }
-
-    /*LUGARES TURISTICOS*/
-    .card-grid {
-        grid-template-columns: repeat(3, 2fr);
-        grid-template-rows: repeat(auto, 500px);
-        grid-template-areas: 
-        'titulo titulo titulo'
-        'descrip descrip descrip'
-        'img img img'   
-        ;
-    }
-
-    /*CONTACTO*/
-    .div_contact{
-        flex-direction: column;
-    }
-
-    .contact img{
-        width: 80%;
-    }
-
-
-}
+/*# sourceMappingURL=style.css.map */

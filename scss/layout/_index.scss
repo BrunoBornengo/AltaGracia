@@ -1,0 +1,116 @@
+.hero {
+    width: 100%;
+    
+    .hero_content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img{
+            width: 49%;
+            padding: 50px;
+        }
+
+        div h1{
+            font-size: 45px;
+            font-weight: bold;
+            color: #222222;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        div p{
+            font-size: 22px;
+            color: #222222;
+            font-weight: bold;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        div a{
+            border: 2px solid #222222;
+            color: #222222;
+            border-radius: 10px;
+            padding: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;  
+            transition: .3s;
+
+            &:hover{
+                border: 2px solid #222222;
+                color: #222222;
+                background-color: #e7bcbcbc;
+            }
+        }
+    }
+}
+
+.img-fondo{
+    background-image: url(../img/ARCHI_618050.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px;
+    text-align: center;
+    color: #eee;
+
+    .lugares-destacados{
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+.tarjetas{
+    background-color: #ecfafc;
+    margin-top: 60px;
+
+    .tarjeta{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 100px;
+
+        div{
+            width: 400px;
+            height: 350px;
+        }
+
+        img{
+            width: 400px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        h2{
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        a{
+            color: #222222;
+            padding: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            transition: .3s;
+
+            &:hover{
+                font-size: 20px;
+                border: 2px solid #222222;
+                border-radius: 10px;
+            }
+        }
+    }    
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
