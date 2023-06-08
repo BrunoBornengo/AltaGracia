@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://brunobornengo.github.io/AltaGracia/</title>
+  <link>https://brunobornengo.github.io/AltaGracia/</link>
+
+<item>
+     <link>https://brunobornengo.github.io/AltaGracia/</link>
+     <title>Document</title>
+     <description>Document</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://brunobornengo.github.io/AltaGracia/index.html</link>
+     <title>Document</title>
+     <description>Document</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://brunobornengo.github.io/AltaGracia/pags/galeria.html</link>
+     <title>Document</title>
+     <description>Document</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://brunobornengo.github.io/AltaGracia/pags/deporte.html</link>
+     <title>Document</title>
+     <description>Document</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://brunobornengo.github.io/AltaGracia/pags/lugares-turisticos.html</link>
+     <title>Document</title>
+     <description>Document</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://brunobornengo.github.io/AltaGracia/pags/contacto.html</link>
+     <title>Document</title>
+     <description>Document</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
