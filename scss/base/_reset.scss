@@ -2,5 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: $font
+}
+
+body {
+  background-color: $main-color;
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
 }

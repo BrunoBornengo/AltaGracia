@@ -7,35 +7,35 @@
 
     .hero_content{
         flex-direction: column;
-    }
 
-    .hero img{
-        width: 80%;
-    }
+        div a{
+            display: flex;
+            justify-content: center;
+            margin-left: 200px;
+            width: 30%;
+        }
 
-    .hero_content div a{
-        display: flex;
-        justify-content: center;
-        margin-left: 200px;
-        width: 30%;
+        img{
+            width: 80%;
+        }
     }
 
     .tarjeta{
         flex-direction: column;
-    }
 
-    .tarjeta div{
-        margin-top: 80px;
+        div{
+            margin-top: 80px;
+        }
     }
 
     .footer {
         flex-direction: column;
+
+        a, .logo-footer, .footer iframe{
+            margin: 15px;
+        }
     }
     
-    .footer a, .logo-footer, .footer iframe{
-        margin: 15px;
-    }
-
     /*GALERIA*/
     .grilla{
         grid-template-columns: repeat(2, 1fr);
@@ -70,6 +70,5 @@
     .contact img{
         width: 80%;
     }
-
-
+    
 }

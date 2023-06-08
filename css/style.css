@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
 body {
   background-color: #e0f7fa;
 }
@@ -8,37 +15,25 @@ h2 {
   font-size: 40px;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-.logo {
-  width: 10%;
-}
-
 header {
   background-color: rgba(231, 188, 188, 0.737254902);
 }
-
-.nav-link {
+header .logo {
+  width: 10%;
+}
+header .nav-link {
   color: #4e4e4e;
   font-size: 20px;
   transition: 0.2s;
   font-weight: bold;
 }
-
-.nav-link:hover {
+header .nav-link:hover {
   color: #000000;
 }
-
-.nav-item {
+header .nav-item {
   margin: 0 10px;
 }
-
-.nav-link-contacto {
+header .nav-link-contacto {
   background-color: #222222;
   color: rgba(231, 188, 188, 0.737254902);
   border-radius: 10px;
@@ -49,8 +44,7 @@ header {
   text-decoration: none;
   transition: 0.2s;
 }
-
-.nav-link-contacto:hover {
+header .nav-link-contacto:hover {
   background-color: transparent;
   color: #222222;
   border: 2px solid #222222;
@@ -63,24 +57,19 @@ header {
   justify-content: space-around;
   align-items: center;
 }
-
-.logo-footer {
+.footer .logo-footer {
   height: 60px;
 }
-
 .footer iframe {
   border-radius: 10px;
 }
-
 .footer a {
   margin: 0 -60px;
 }
-
 .footer a img {
   height: 40px;
   transition: 0.2s;
 }
-
 .footer a img:hover {
   height: 45px;
 }
@@ -90,8 +79,10 @@ header {
 }
 .hero .hero_content {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  gap: 0px;
 }
 .hero .hero_content img {
   width: 49%;
@@ -147,27 +138,28 @@ header {
 }
 .tarjetas .tarjeta {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
   padding-bottom: 100px;
 }
 .tarjetas .tarjeta div {
   width: 400px;
   height: 350px;
 }
-.tarjetas .tarjeta img {
+.tarjetas .tarjeta div img {
   width: 400px;
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
 }
-.tarjetas .tarjeta h2 {
+.tarjetas .tarjeta div h2 {
   padding: 10px;
   font-weight: bold;
 }
-.tarjetas .tarjeta a {
+.tarjetas .tarjeta div a {
   color: #222222;
   padding: 10px;
   font-size: 15px;
@@ -177,7 +169,7 @@ header {
   text-decoration: none;
   transition: 0.3s;
 }
-.tarjetas .tarjeta a:hover {
+.tarjetas .tarjeta div a:hover {
   font-size: 20px;
   border: 2px solid #222222;
   border-radius: 10px;
@@ -194,8 +186,10 @@ header {
 }
 .contact .div_contact {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  gap: 0px;
 }
 .contact .div_contact div h2 {
   font-size: 45px;
@@ -222,11 +216,12 @@ header {
 
 .cards-deporte {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 10px;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 10px;
 }
 .cards-deporte .card {
   height: 380px;
@@ -341,14 +336,14 @@ main .grilla img {
   .hero_content {
     flex-direction: column;
   }
-  .hero img {
-    width: 80%;
-  }
   .hero_content div a {
     display: flex;
     justify-content: center;
     margin-left: 200px;
     width: 30%;
+  }
+  .hero_content img {
+    width: 80%;
   }
   .tarjeta {
     flex-direction: column;
@@ -359,7 +354,7 @@ main .grilla img {
   .footer {
     flex-direction: column;
   }
-  .footer a, .logo-footer, .footer iframe {
+  .footer a, .footer .logo-footer, .footer .footer iframe {
     margin: 15px;
   }
   /*GALERIA*/

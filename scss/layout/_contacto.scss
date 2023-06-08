@@ -2,9 +2,7 @@
     width: 100%;
 
     .div_contact{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @include flex(row, space-around,center, 0px);
 
         div h2{
             font-size: 45px;
