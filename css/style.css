@@ -328,27 +328,27 @@ main .grilla img {
   border-radius: 10px;
 }
 
-@media (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   /*INICIO*/
-  .logo {
+  header .logo {
     width: 100px;
   }
-  .hero_content {
+  .hero .hero_content {
     flex-direction: column;
   }
-  .hero_content div a {
+  .hero .hero_content div a {
     display: flex;
     justify-content: center;
     margin-left: 200px;
     width: 30%;
   }
-  .hero_content img {
+  .hero .hero_content img {
     width: 80%;
   }
-  .tarjeta {
+  .tarjetas .tarjeta {
     flex-direction: column;
   }
-  .tarjeta div {
+  .tarjetas .tarjeta div {
     margin-top: 80px;
   }
   .footer {
@@ -358,7 +358,7 @@ main .grilla img {
     margin: 15px;
   }
   /*GALERIA*/
-  .grilla {
+  main .grilla {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(auto, 500px);
     grid-template-areas: "area1 area1" "area2 area3" "area4 area5" "area6 area7" "area8 area9" "area10 area11" "area12 area12";
@@ -370,10 +370,10 @@ main .grilla img {
     grid-template-areas: "titulo titulo titulo" "descrip descrip descrip" "img img img";
   }
   /*CONTACTO*/
-  .div_contact {
+  .contact .div_contact {
     flex-direction: column;
   }
-  .contact img {
+  .contact .div_contact img {
     width: 80%;
   }
 }
