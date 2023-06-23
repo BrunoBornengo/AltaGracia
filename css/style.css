@@ -377,5 +377,48 @@ main .grilla img {
     width: 80%;
   }
 }
+@media only screen and (width: 768px) {
+  /*INICIO*/
+  header .logo {
+    width: 100px;
+  }
+  .hero .hero_content {
+    flex-direction: column;
+  }
+  .hero .hero_content div a {
+    display: flex;
+    justify-content: center;
+    margin-left: 260px;
+    width: 22%;
+  }
+  .hero .hero_content img {
+    width: 70%;
+  }
+  .tarjetas .tarjeta {
+    flex-direction: column;
+  }
+  .tarjetas .tarjeta div {
+    margin-top: 80px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer a, .footer .logo-footer, .footer .footer iframe {
+    margin: 15px;
+  }
+  /*GALERIA*/
+  main .grilla {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto, 500px);
+    grid-template-areas: "area1 area2" "area3 area4" "area5 area6" "area7 area8" "area9 area10" "area11 area12";
+  }
+  /*CONTACTO*/
+  .contact .div_contact {
+    flex-direction: column;
+  }
+  .contact .div_contact img {
+    width: 80%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
